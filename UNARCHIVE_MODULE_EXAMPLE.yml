@@ -1,0 +1,9 @@
+--- # UNARCHIVE MODULE EXAMPLE
+- hosts: webserver
+  user: root
+  sudo: yes
+  connection: ssh
+  gather_facts: no
+  tasks:
+    - name: copy and unarchive a file
+      unarchive: src=/home/cloud_user/test.tar dest=/home/cloud_user/test copy=no
