@@ -1,0 +1,8 @@
+--- # Yum Module Example
+- hosts: webserver
+  sudo: yes
+  connection: ssh
+  gather_facts: no
+  tasks:
+  - name: Equivalent of YUM UPGRADE
+    action: yum name=* state=latest
