@@ -1,4 +1,4 @@
---- # ACL MODULE EXAMPLE
+--- # ACL MODULE 
 - hosts: web1
   user: root
   sudo: yes

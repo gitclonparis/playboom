@@ -1,4 +1,4 @@
---- # COMMAND MODULE EXAMPLE
+--- # COMMAND MODULE 
 - hosts: web1
   user: root
   sudo: yes
