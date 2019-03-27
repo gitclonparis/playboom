@@ -1,0 +1,9 @@
+--- # COPY MODULE EXAMPLE
+- hosts: web1
+  user: root
+  sudo: yes
+  connection: ssh
+  gather_facts: no
+  tasks:
+  - name: Copy from the files directory test file
+    action: copy src=test4.txt dest=/home/cloud_user/test4.txt owner=cloud_user group=cloud_user mode=0655 backup=yes

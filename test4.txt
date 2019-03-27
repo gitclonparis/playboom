@@ -1,0 +1,16 @@
+total 52K
+-rw-r--r--. 1 root root   56 Mar 27 13:01 ACL_MODULE_EXAMPLE.retry
+-rw-r--r--. 1 root root  316 Mar 27 13:01 ACL_MODULE_EXAMPLE.yml
+-rw-r--r--. 1 root root   56 Mar 27 13:06 COMMAND_MODULE_EXAMPLE.retry
+-rw-r--r--. 1 root root  232 Mar 27 13:06 COMMAND_MODULE_EXAMPLE.yml
+-rw-r--r--. 1 root root  392 Mar 27 12:48 MasterPlaybookforWebServers.yml
+-rw-r--r--. 1 root root 1007 Mar 27 12:48 OutlinetoPlaybookTranslation.yml
+-rw-r--r--. 1 root root  393 Mar 27 12:48 shell_EXAMPLE.yml
+-rw-r--r--. 1 root root    0 Mar 27 13:09 test4.txt
+-rw-r--r--. 1 root root   28 Mar 27 12:48 UNARCHIVE_MODULE_EXAMPLE.retry
+-rw-r--r--. 1 root root  241 Mar 27 12:48 UNARCHIVE_MODULE_EXAMPLE.yml
+-rw-r--r--. 1 root root  386 Mar 27 12:48 until_shell_EXAMPLE.yml
+-rw-r--r--. 1 root root   56 Mar 27 12:48 wait_for_Module.retry
+-rw-r--r--. 1 root root  336 Mar 27 12:48 wait_for_Module.yml
+drwxr-xr-x. 3 root root   47 Mar 27 12:48 WHENPlaybookExample
+-rw-r--r--. 1 root root  174 Mar 27 12:48 yum.yml
