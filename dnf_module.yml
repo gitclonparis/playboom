@@ -1,0 +1,18 @@
+--- # DNF MODULE EXAMPLE
+- hosts: web1
+  user: root
+  sudo: yes
+  connection: ssh
+  gather_facts: no
+  tasks:
+  - name: DNF Update
+    dnf: name="@Development tools" state=present
+
+- hosts: web2
+  user: root
+  sudo: yes
+  connection: ssh
+  gather_facts: no
+  tasks:
+  - name: Load dummy module
+    modprobe: name=dummy state=absent
