@@ -1,4 +1,4 @@
---- # Master Playbook for Web Servers == caput
+--- # Master Playbook for Web Servers ok == caput
 - hosts: webserver
   user: root
   sudo: yes

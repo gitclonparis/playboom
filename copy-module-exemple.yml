@@ -1,4 +1,4 @@
---- # COPY MODULE EXAMPLE
+--- # COPY MODULE EXAMPLE ok
 - hosts: web1
   user: root
   sudo: yes

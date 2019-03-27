@@ -1,4 +1,4 @@
---- # UNARCHIVE MODULE EXAMPLE
+--- # UNARCHIVE MODULE EXAMPLE ok
 - hosts: webserver
   user: root
   sudo: yes

@@ -1,4 +1,4 @@
---- # Yum Module Example
+--- # Yum Module Example ok
 - hosts: webserver
   sudo: yes
   connection: ssh

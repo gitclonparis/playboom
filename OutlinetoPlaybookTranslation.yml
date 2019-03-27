@@ -1,4 +1,4 @@
---- # Outline to Playbook Translation
+--- # Outline to Playbook Translation ok
 - hosts: webserver
   user: root
   sudo: yes

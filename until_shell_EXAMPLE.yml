@@ -1,4 +1,4 @@
---- # UNTIL EXAMPLE
+--- # UNTIL EXAMPLE ok
 - hosts: webserver
   sudo: yes
   connection: ssh
