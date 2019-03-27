@@ -1,0 +1,25 @@
+--- # DELEGATE TO FUNCTION DEMO
+- hosts: web1
+  sudo: yes
+  user: root
+  connection: ssh
+  tasks:
+  - name: Run a remote ping on the application server
+    raw: ping -c 4 8.8.8.8 > /home/cloud_user/ping.out
+    delegate_to: 127.0.0.1
+  - name: Install a package
+    yum: pkg=lynx state=latest
+
+- hosts: web2
+  tasks:
+  - name: Install Lynx on App Servers
+    yum: pkg=lynx state=installed update_cache=true
+  - name: Querying for Telnet Install
+    yum: pkg=telnet state=present update_cache=true
+
+- hosts: web1
+  tasks:
+  - name: Install Lynx on Web Servers
+    yum: pkg=telnet state=installed update_cache=true
+  - name: Querying for Lynx Install
+    yum: pkg=lynx state=present update_cache=true
